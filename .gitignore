@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# YOLO
+ultralytics/
+runs/
+*.pt
+!runs/detect/runs/detect/train_s_640/weights/best.pt
+
+# Data
+train/
+val/
+test/
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
